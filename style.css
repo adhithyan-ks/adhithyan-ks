@@ -1,39 +1,50 @@
-/* Global settings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General Styling */
 body {
-    background-color: black;
+    background: black;
     color: #00ff00;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+main {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
+    text-align: center;
 }
 
-h3 {
+/* Heading Style */
+h2 {
     font-size: 2.5em;
-    text-shadow: 0 0 10px #00ff00;
-    max-width: 600px;
+    margin-bottom: 20px;
 }
 
+/* Social Links Styling */
 .social-links {
-    margin-top: 10px;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .social-item {
-    font-size: 1.5em;
-    color: #00ff00;
-    margin: 10px 0;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.2em;
     cursor: pointer;
-    transition: color 0.3s, text-shadow 0.3s;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover Effect */
 .social-item:hover {
-    color: #00cc00;
-    text-shadow: 0 0 5px #00ff00;
+    color: #00ff00; /* Bright color for Matrix-style effect */
+    transform: scale(1.05);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
 }
