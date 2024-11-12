@@ -4,18 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adhithyan K S</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    
+    <!-- SEO and Social Sharing Meta Tags -->
+    <meta name="description" content="Portfolio of Adhithyan K S, showcasing projects and skills.">
+    <meta property="og:title" content="Adhithyan K S - Portfolio">
+    <meta property="og:description" content="Portfolio of Adhithyan K S, showcasing projects and skills.">
+    <meta property="og:image" content="path/to/your/image.jpg"> <!-- Replace with actual image path -->
+    <meta property="og:url" content="https://adhithyan.in">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* General Styling */
+        body {
+            background: black;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Heading Style */
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Social Links Styling */
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-item {
+            background: none;
+            border: none;
+            color: inherit;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .social-item:hover {
+            color: #00ff00; /* Bright color for Matrix-style effect */
+            transform: scale(1.05);
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-    <main>
-        <h3>Adhithyan K S</h3>
+    <main role="main">
+        <!-- Updated Heading with h2 for SEO and Accessibility -->
+        <h2>Adhithyan K S</h2>
         
+        <!-- Social Links as Buttons -->
         <div class="social-links">
-            <p class="social-item" onclick="window.location.href='https://www.instagram.com/adhithyan.in/'">Instagram↗</p>
-            <p class="social-item" onclick="window.location.href='https://www.youtube.com/@TheAdhithyan'">YouTube↗</p>
-            <p class="social-item" onclick="window.location.href='https://github.com/adhithyan-ks'">GitHub↗</p>
-            <p class="social-item" onclick="window.location.href='https://www.linkedin.com/in/adhithyanks/'">LinkedIn↗</p>
+            <button class="social-item" onclick="window.location.href='https://www.instagram.com/adhithyan.in/'">Instagram↗</button>
+            <button class="social-item" onclick="window.location.href='https://www.youtube.com/@TheAdhithyan'">YouTube↗</button>
+            <button class="social-item" onclick="window.location.href='https://github.com/adhithyan-ks'">GitHub↗</button>
+            <button class="social-item" onclick="window.location.href='https://www.linkedin.com/in/adhithyanks/'">LinkedIn↗</button>
         </div>
     </main>
 </body>
