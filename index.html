@@ -17,8 +17,49 @@
     
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Inline CSS for the canvas background and basic styling -->
+    <style>
+        * {margin: 0; padding: 0;}
+        body {background: #000; color: #00ff00; font-family: 'Courier New', Courier, monospace;}
+        canvas {display: block; position: fixed; top: 0; left: 0; z-index: -1;}
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            position: relative; /* Ensures content appears above canvas */
+            z-index: 1;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .social-item {
+            background: none;
+            border: none;
+            color: inherit;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .social-item:hover {
+            color: #00ff00;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
+    <!-- Matrix Rain Animation Canvas -->
+    <canvas></canvas>
+
     <main role="main">
         <h2>Adhithyan K S</h2>
         
@@ -29,5 +70,62 @@
             <button class="social-item" onclick="window.location.href='https://www.linkedin.com/in/adhithyanks/'">LinkedIn↗</button>
         </div>
     </main>
+
+    <!-- JavaScript for Matrix Rain Animation -->
+    <script>
+        // Initialize the canvas and context
+        var canvas = document.querySelector('canvas'),
+            ctx = canvas.getContext('2d');
+
+        // Set canvas size to the window dimensions
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Set up the letters
+        var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+        letters = letters.split('');
+
+        // Set up the columns
+        var fontSize = 10,
+            columns = canvas.width / fontSize;
+
+        // Set up the drops
+        var drops = [];
+        for (var i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+
+        // Draw function
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#0f0';
+            ctx.font = fontSize + 'px arial';
+
+            // Loop over the drops
+            for (var i = 0; i < drops.length; i++) {
+                var text = letters[Math.floor(Math.random() * letters.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                // Reset drop after reaching the bottom
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+
+        // Loop the animation
+        setInterval(draw, 33);
+
+        // Handle window resizing
+        window.addEventListener('resize', function() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            columns = canvas.width / fontSize;
+            drops = Array(Math.floor(columns)).fill(1);
+        });
+    </script>
 </body>
 </html>
