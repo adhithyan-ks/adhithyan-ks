@@ -8,7 +8,7 @@ Welcome to my GitHub! I'm a **computer engineering student** from Kerala, India,
 - 🌐 **Personal Website:** [adhithyan.in](http://adhithyan.in)
 - 📫 **Email:** [adhithyanktd@gmail.com](mailto:adhithyanktd@gmail.com)
 - 💼 **LinkedIn:** [adhithyanks](https://www.linkedin.com/in/adhithyanks/)
-- 👨‍💻 **Languages Known:** Basic proficiency in **C programming, sql, CSS and JavaScript.**
+- 👨‍💻 **Languages Known:** Basic proficiency in **C programming, sql, JavaScript and CSS**
 
 ---
 
