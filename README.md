@@ -1,4 +1,4 @@
-# Hi, I'm Adhithyan K S 👋
+# Hi, I'm Adhithyan 👋
 
 Welcome to my GitHub! I'm a **computer engineering student** from Kerala, India, with a passion for coding and learning new technologies. I'm currently exploring software development, web development, and enhancing my knowledge in programming languages.
 
