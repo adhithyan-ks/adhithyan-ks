@@ -33,11 +33,7 @@ function draw() {
     }
 }
 
-function animate() {
-    draw();
-    requestAnimationFrame(animate);
-}
-animate();
+setInterval(draw, 33);
 
 window.addEventListener('resize', function() {
     canvas.width = window.innerWidth;
