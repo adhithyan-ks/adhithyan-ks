@@ -1,24 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adhithyan K S – My online presence.">
-    <title>Adhithyan K S</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhithyan K S</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #f7f7f7;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    .glow-circle {
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(255, 87, 87, 0.9), transparent 70%);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+      margin: 20px 0;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+    }
+
+    .name {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .links {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .link-button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #fff;
+      color: #333;
+      border-radius: 25px;
+      text-decoration: none;
+      border: 1px solid #ddd;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .link-button:hover {
+      background: #ff5757;
+      color: #fff;
+      border-color: #ff5757;
+      box-shadow: 0px 6px 8px rgba(255, 87, 87, 0.3);
+    }
+
+    .link-button img {
+      width: 24px;
+      height: 24px;
+    }
+
+    @media (max-width: 768px) {
+      .name {
+        font-size: 1.5rem;
+      }
+
+      .glow-circle {
+        width: 150px;
+        height: 150px;
+      }
+
+      .link-button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .links {
+        flex-direction: column;
+      }
+
+      .link-button {
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <canvas></canvas>
-    <main role="main">
-        <h2>Adhithyan K S</h2>
-        <div class="social-links">
-            <button class="social-item" onclick="window.location.href='https://www.instagram.com/adhithyan.in/'">Instagram↗</button>
-            <button class="social-item" onclick="window.location.href='https://www.youtube.com/@TheAdhithyan'">YouTube↗</button>
-            <button class="social-item" onclick="window.location.href='https://github.com/adhithyan-ks'">GitHub↗</button>
-            <button class="social-item" onclick="window.location.href='https://www.linkedin.com/in/adhithyanks/'">LinkedIn↗</button>
-        </div>
-    </main>
-    <script src="script.js"></script>
+  <div class="name">Adhithyan K S</div>
+  <div class="glow-circle"></div>
+  <div class="links">
+    <a href="https://www.youtube.com/@TheAdhithyan" target="_blank" class="link-button">
+      <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube"> YouTube
+    </a>
+    <a href="https://www.linkedin.com/in/adhithyanks/" target="_blank" class="link-button">
+      <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn"> LinkedIn
+    </a>
+    <a href="https://www.instagram.com/adhithyan.in/" target="_blank" class="link-button">
+      <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"> Instagram
+    </a>
+    <a href="https://github.com/adhithyan-ks" target="_blank" class="link-button">
+      <img src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub"> GitHub
+    </a>
+  </div>
 </body>
 </html>
