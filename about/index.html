@@ -6,27 +6,49 @@
   <title>About - Adhithyan</title>
   <link rel="icon" type="image/x-icon" href="../favicon.png">
   <style>
-    /* General body styling */
     body {
       margin: 0;
       padding: 20px;
       min-height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       background: #f7f7f7;
       font-family: Arial, sans-serif;
       color: #333;
       text-align: center;
+      position: relative; /* Ensure relative positioning for body */
     }
 
-    /* Main content styling */
+    .nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .nav a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-left: 15px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #ff5757;
+      color: #fff;
+    }
+
     main {
       max-width: 800px;
       background: #fff;
       padding: 20px 30px;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
     }
 
     h2 {
@@ -41,7 +63,6 @@
       color: #555;
     }
 
-    /* Responsive design */
     @media (max-width: 768px) {
       h2 {
         font-size: 1.5rem;
@@ -54,6 +75,9 @@
   </style>
 </head>
 <body>
+  <nav class="nav">
+    <a href="../">Home</a>
+  </nav>
   <main role="main">
     <h2>Hi, I'm Adhithyan 👋</h2>
     <p>
