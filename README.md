@@ -20,6 +20,6 @@ I'm a developer from Kerala, India, interested in Web and Android Development. I
 
 ---
 
-### Stats
+### 🎟️ Stats
 
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=adhithyan-ks&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
