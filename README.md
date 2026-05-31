@@ -1,10 +1,10 @@
 # Adhithyan K S
 
 **`Web & Android Developer`**
-<br />
+
 I'm a developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2 😸. Later on I shifted to Web development then to Android development.
 
-[![](https://www.shieldcn.dev/badge/Website-adhithyan.com-181717.svg?logo=ri%3ALuLink&variant=branded&size=sm)](https://adhithyan.com)
+[![Website](https://www.shieldcn.dev/badge/Website-adhithyan.com-181717.svg?logo=ri%3ALuLink&variant=branded&size=sm)](https://adhithyan.com)
 
 ### 🛠️ Technologies
 
