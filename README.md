@@ -2,7 +2,7 @@
 
 **`Web & Android Developer`**
 
-I'm a developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2 😸. Later on I shifted to Web development then to Android development.
+I'm a developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2 😺 and later expanded into Web and Android development.
 
 [![Website](https://www.shieldcn.dev/badge/Website-adhithyan.com-181717.svg?logo=ri%3ALuLink&variant=branded&size=sm)](https://adhithyan.com)
 
