@@ -1,8 +1,10 @@
 # 🌞 Adhithyan K S
 
-**`Web & Android Developer`**
+**`Curious Builder`**
 
-I'm a full-stack developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2. Later on I shifted to Web development then to Android development.
+I'm Adhithyan, a developer from Kerala, India who enjoys building things for the web, creating Android apps, and experimenting with new ideas.
+
+I started programming in 2019 with Scratch, later moved to web development, and now focus primarily on SvelteKit, backend development, and Android.
 
 <div align="left">
 
@@ -22,10 +24,10 @@ I'm a full-stack developer from Kerala, India, interested in Web and Android Dev
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 
-![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+<!-- ![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows_11-0078d4?style=for-the-badge&logo=windows-11&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) -->
 </div>
 
 ---
@@ -41,6 +43,6 @@ I'm a full-stack developer from Kerala, India, interested in Web and Android Dev
 
 <div align="center">
 
-![Mini Graphics Cats](assets/mini-graphics-aliens-and-space-953561.gif)
+![Mini Graphics UFO](assets/mini-graphics-aliens-and-space-953561.gif)
 
 </div>
