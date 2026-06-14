@@ -1,25 +1,46 @@
-# Adhithyan K S
+# 🌞 Adhithyan K S
 
 **`Web & Android Developer`**
 
-I'm a developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2 😺 and later expanded into Web and Android development.
+I'm a full-stack developer from Kerala, India, interested in Web and Android Development. I started programming in 2019 with Scratch 2. Later on I shifted to Web development then to Android development.
 
-[![Website](https://www.shieldcn.dev/badge/Website-adhithyan.com-181717.svg?logo=ri%3ALuLink&variant=branded&size=sm)](https://adhithyan.com)
+<div align="left">
 
 ### 🛠️ Technologies
+![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) 
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) 
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-![PHP](https://www.shieldcn.dev/badge/-PHP-777BB4.svg?logo=php&variant=branded&size=sm)
-![JavaScript](https://www.shieldcn.dev/badge/-JavaScript-F7DF1E.svg?logo=javascript&variant=branded&size=sm)
-![Java](https://www.shieldcn.dev/badge/-Java-ED8B00.svg?logo=openjdk&variant=branded&size=sm)
-![Svelte](https://www.shieldcn.dev/badge/-Svelte-FF3E00.svg?logo=svelte&variant=branded&size=sm)
-![Bash](https://www.shieldcn.dev/badge/-Bash-4EAA25.svg?logo=gnubash&variant=branded&size=sm)
-![Tailwind CSS](https://www.shieldcn.dev/badge/-Tailwind_CSS-06B6D4.svg?logo=tailwindcss&variant=branded&size=sm)
-![MySQL](https://www.shieldcn.dev/badge/-MySQL-00000F.svg?logo=mysql&variant=branded&size=sm)
-![Linux](https://www.shieldcn.dev/badge/-Linux-FCC624.svg?logo=linux&variant=branded&size=sm)
-![Supabase](https://www.shieldcn.dev/badge/-Supabase-00000F.svg?logo=supabase&variant=branded&size=sm)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+
+![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows_11-0078d4?style=for-the-badge&logo=windows-11&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+</div>
 
 ---
 
-### 🎟️ Stats
+<div align="left">
 
+### 📊 Stats
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=adhithyan-ks&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
+
+---
+
+<div align="center">
+
+![Mini Graphics Cats](assets/mini-graphics-aliens-and-space-953561.gif)
+
+</div>
