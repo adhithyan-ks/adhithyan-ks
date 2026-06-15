@@ -4,6 +4,8 @@
 
 I'm Adhithyan, a developer from Kerala, India who enjoys building things for the web, creating Android apps, and experimenting with new ideas.
 
+[![Email](https://img.shields.io/badge/mail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mail@adhithyan.com)
+
 I started programming in 2019 with Scratch, later moved to web development, and now focus primarily on SvelteKit, backend development, and Android.
 
 <div align="left">
