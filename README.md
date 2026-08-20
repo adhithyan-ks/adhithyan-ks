@@ -1,6 +1,4 @@
-# 🌞 Adhithyan K S
-
-**`Curious Builder`**
+# Adhithyan K S
 
 I'm Adhithyan, a developer from Kerala, India who enjoys building things for the web, creating Android apps, and experimenting with new ideas.
 
